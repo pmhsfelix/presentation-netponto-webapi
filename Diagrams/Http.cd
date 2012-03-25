@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="System.Net.Http.HttpRequestMessage">
+    <Position X="0.75" Y="0.5" Width="2.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="HttpRequestMessage" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Headers" />
+      <Property Name="Content" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Net.Http.Headers.HttpRequestHeaders">
+    <Position X="0.75" Y="2.75" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Net.Http.HttpContent">
+    <Position X="4.25" Y="0.75" Width="2.5" />
+    <Members>
+      <Method Name="CopyToAsync" Hidden="true" />
+      <Method Name="CreateContentReadStreamAsync" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="HttpContent" Hidden="true" />
+      <Method Name="LoadIntoBufferAsync" Hidden="true" />
+      <Method Name="ReadAsByteArrayAsync" Hidden="true" />
+      <Method Name="ReadAsStreamAsync" Hidden="true" />
+      <Method Name="ReadAsStringAsync" Hidden="true" />
+      <Method Name="SerializeToStreamAsync" Hidden="true" />
+      <Method Name="TryComputeLength" Hidden="true" />
+    </Members>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Headers" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Net.Http.Headers.HttpContentHeaders">
+    <Position X="4" Y="2.75" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Net.Http.HttpResponseMessage">
+    <Position X="7.75" Y="0.5" Width="2.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="EnsureSuccessStatusCode" Hidden="true" />
+      <Method Name="HttpResponseMessage" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+    </Members>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Content" />
+      <Property Name="Headers" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Net.Http.Headers.HttpResponseHeaders">
+    <Position X="7.75" Y="3" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
